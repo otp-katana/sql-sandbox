@@ -1,0 +1,14 @@
+INSERT INTO OYUNCULAR (
+	KULLANICI_ADI,
+	KAYIT_TARIHI,
+	SEVIYE,
+	ALTIN_BAKIYE,
+	BANLI_MI
+)
+VALUES
+('ShadowNinja', '2026-08-15 14:30:00', 60, 15000.50, 0),
+('ToxicSlayer', '2026-09-01 10:15:00', 45, 8500.00, 1),
+('NoobMaster99', '2026-10-10 09:00:00', 3, 250.00, 0),
+('IronFist', '2026-05-20 18:45:00', 55, 12000.75, 0),
+('x', '2026-10-12 20:30:00', 5, 600.00, 0),
+('GlitchHacker', '2026-10-13 11:20:00', 70, 99999.99, 1);
