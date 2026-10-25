@@ -1,3 +1,14 @@
+-- 1. Veritabanı Oluşturma ve Seçme
+USE master;
+GO
+
+CREATE DATABASE GameServer_DB;
+GO
+
+USE GameServer_DB;
+GO
+
+-- 2. Oyuncular Tablosunun Kurulumu
 CREATE TABLE OYUNCULAR (
 	OYUNCU_ID INT PRIMARY KEY IDENTITY (1,1),
 	KULLANICI_ADI NVARCHAR (50),
@@ -5,3 +16,4 @@ CREATE TABLE OYUNCULAR (
 	SEVIYE INT,
 	OYUN_ICI_KREDI DECIMAL (10,2)
 );
+GO

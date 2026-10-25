@@ -1,3 +1,7 @@
+USE TechStart_DB;
+GO
+
+-- 1. Personel Verilerinin Eklenmesi
 INSERT INTO EKIP (
 	AD_SOYAD,
 	DEPARTMAN,
@@ -13,3 +17,4 @@ VALUES
 ('Burak Kaya', 'Yazılım', 35, 52000.00, 95),
 ('Ceren Yıldız', 'Pazarlama', 26, 34000.00, 70),
 ('Deniz Ak', 'Tasarım', 31, 39000.00, 90);
+GO

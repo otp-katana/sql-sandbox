@@ -1,3 +1,7 @@
+USE GameServer_DB;
+GO
+
+-- 1. Beta Oyuncularının Eklenmesi
 INSERT INTO OYUNCULAR (
 	KULLANICI_ADI,
 	KAYIT_TARIHI,
@@ -12,3 +16,4 @@ VALUES
 ('IronFist', '2026-05-20 18:45:00', 55, 12000.75, 0),
 ('x', '2026-10-12 20:30:00', 5, 600.00, 0),
 ('GlitchHacker', '2026-10-13 11:20:00', 70, 99999.99, 1);
+GO
